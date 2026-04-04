@@ -1,0 +1,134 @@
+[
+{
+    "model": "exercises.musclegroup",
+    "pk": 1,
+    "fields": {
+    "name": "Pecho",
+    "slug": "chest",
+    "body_zone": "front",
+    "svg_element_id": "pecho",
+    "order": 1
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 2,
+    "fields": {
+    "name": "Hombros",
+    "slug": "shoulders",
+    "body_zone": "front",
+    "svg_element_id": "hombros",
+    "order": 2
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 3,
+    "fields": {
+    "name": "Bíceps",
+    "slug": "biceps",
+    "body_zone": "front",
+    "svg_element_id": "biceps",
+    "order": 3
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 4,
+    "fields": {
+    "name": "Abdomen",
+    "slug": "abs",
+    "body_zone": "front",
+    "svg_element_id": "abdomen",
+    "order": 4
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 5,
+    "fields": {
+    "name": "Cuádriceps",
+    "slug": "quads",
+    "body_zone": "front",
+    "svg_element_id": "cuadriceps",
+    "order": 5
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 6,
+    "fields": {
+    "name": "Espalda Alta",
+    "slug": "upper-back",
+    "body_zone": "back",
+    "svg_element_id": "espalda_alta",
+    "order": 6
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 7,
+    "fields": {
+    "name": "Espalda Baja",
+    "slug": "lower-back",
+    "body_zone": "back",
+    "svg_element_id": "espalda_baja",
+    "order": 7
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 8,
+    "fields": {
+    "name": "Tríceps",
+    "slug": "triceps",
+    "body_zone": "back",
+    "svg_element_id": "triceps",
+    "order": 8
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 9,
+    "fields": {
+    "name": "Glúteos",
+    "slug": "glutes",
+    "body_zone": "back",
+    "svg_element_id": "gluteos",
+    "order": 9
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 10,
+    "fields": {
+    "name": "Isquiotibiales",
+    "slug": "hamstrings",
+    "body_zone": "back",
+    "svg_element_id": "isquiotibiales",
+    "order": 10
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 11,
+    "fields": {
+    "name": "Pantorrillas",
+    "slug": "calves",
+    "body_zone": "back",
+    "svg_element_id": "pantorrillas",
+    "order": 11
+    }
+},
+{
+    "model": "exercises.musclegroup",
+    "pk": 12,
+    "fields": {
+    "name": "Trapecios",
+    "slug": "traps",
+    "body_zone": "back",
+    "svg_element_id": "trapecios",
+    "order": 12
+    }
+}
+]
