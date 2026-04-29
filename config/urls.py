@@ -10,5 +10,6 @@ urlpatterns = [
         path('muscles/', include('apps.gamification.urls')),
         path('missions/', include('apps.missions.urls')),
         path('achievements/', include('apps.achievements.urls')),
+        path('dashboard/', include('apps.gamification.dashboard_urls')),
     ])),
 ]
