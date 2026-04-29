@@ -157,14 +157,17 @@ def complete_workout(workout):
         # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         updated_profile = update_streak(user)
 
-        # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-        # PASO 6 — Evaluar misiones (Sprint 6)
-        # Placeholder hasta implementar MissionService
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        # PASO 6 — Evaluar misiones
         # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
         completed_missions = []
         try:
             from apps.missions.services import evaluate_missions
-            completed_missions = evaluate_missions(user, workout)
+            completed_missions = evaluate_missions(
+                user=user,
+                workout=workout,
+                xp_gained=total_xp_this_workout
+            )
         except (ImportError, Exception):
             pass
 
