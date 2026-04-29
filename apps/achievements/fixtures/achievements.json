@@ -1,0 +1,227 @@
+[
+  {
+    "model": "achievements.achievement",
+    "pk": 1,
+    "fields": {
+      "name": "Primera sesión",
+      "description": "Completa tu primera sesión de entrenamiento. ¡El viaje de mil millas comienza con un paso!",
+      "condition_type": "workout_count",
+      "condition_value": 1,
+      "condition_muscle": null,
+      "xp_reward": 100,
+      "rarity": "common",
+      "badge_icon": "star",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 2,
+    "fields": {
+      "name": "Veterano",
+      "description": "Completa 10 sesiones de entrenamiento. Ya eres parte del club.",
+      "condition_type": "workout_count",
+      "condition_value": 10,
+      "condition_muscle": null,
+      "xp_reward": 200,
+      "rarity": "uncommon",
+      "badge_icon": "shield",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 3,
+    "fields": {
+      "name": "Guerrero",
+      "description": "Completa 50 sesiones de entrenamiento. Tu dedicación es inquebrantable.",
+      "condition_type": "workout_count",
+      "condition_value": 50,
+      "condition_muscle": null,
+      "xp_reward": 500,
+      "rarity": "rare",
+      "badge_icon": "sword",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 4,
+    "fields": {
+      "name": "Leyenda",
+      "description": "Completa 100 sesiones de entrenamiento. Eres una leyenda viviente.",
+      "condition_type": "workout_count",
+      "condition_value": 100,
+      "condition_muscle": null,
+      "xp_reward": 1000,
+      "rarity": "legendary",
+      "badge_icon": "crown",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 5,
+    "fields": {
+      "name": "Racha de fuego",
+      "description": "Mantén una racha de 7 días consecutivos de entrenamiento. ¡No te detengas!",
+      "condition_type": "streak",
+      "condition_value": 7,
+      "condition_muscle": null,
+      "xp_reward": 150,
+      "rarity": "uncommon",
+      "badge_icon": "fire",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 6,
+    "fields": {
+      "name": "Imparable",
+      "description": "Mantén una racha de 30 días consecutivos. Eres una máquina sin pausa.",
+      "condition_type": "streak",
+      "condition_value": 30,
+      "condition_muscle": null,
+      "xp_reward": 500,
+      "rarity": "epic",
+      "badge_icon": "lightning",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 7,
+    "fields": {
+      "name": "Primer nivel muscular",
+      "description": "Sube cualquier músculo al nivel 2. ¡El progreso ha comenzado!",
+      "condition_type": "muscle_level",
+      "condition_value": 2,
+      "condition_muscle": null,
+      "xp_reward": 100,
+      "rarity": "common",
+      "badge_icon": "muscle",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 8,
+    "fields": {
+      "name": "Músculo de acero",
+      "description": "Sube cualquier músculo al nivel 5. Tu fuerza es visible.",
+      "condition_type": "muscle_level",
+      "condition_value": 5,
+      "condition_muscle": null,
+      "xp_reward": 300,
+      "rarity": "rare",
+      "badge_icon": "diamond",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 9,
+    "fields": {
+      "name": "Coleccionista de XP",
+      "description": "Acumula 1000 XP en total. Cada gota de sudor tiene su recompensa.",
+      "condition_type": "total_xp",
+      "condition_value": 1000,
+      "condition_muscle": null,
+      "xp_reward": 200,
+      "rarity": "uncommon",
+      "badge_icon": "gem",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 10,
+    "fields": {
+      "name": "Completador",
+      "description": "Completa 10 misiones. Demuestras que los objetivos están para cumplirse.",
+      "condition_type": "mission_count",
+      "condition_value": 10,
+      "condition_muscle": null,
+      "xp_reward": 250,
+      "rarity": "uncommon",
+      "badge_icon": "checkmark",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 11,
+    "fields": {
+      "name": "Novato nivel 5",
+      "description": "Alcanza el nivel general 5. Tu perfil RPG está creciendo.",
+      "condition_type": "level",
+      "condition_value": 5,
+      "condition_muscle": null,
+      "xp_reward": 200,
+      "rarity": "uncommon",
+      "badge_icon": "badge",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 12,
+    "fields": {
+      "name": "Maestro nivel 10",
+      "description": "Alcanza el nivel general 10. Tu dedicación te ha llevado lejos.",
+      "condition_type": "level",
+      "condition_value": 10,
+      "condition_muscle": null,
+      "xp_reward": 400,
+      "rarity": "rare",
+      "badge_icon": "medal",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 13,
+    "fields": {
+      "name": "Leyenda nivel 20",
+      "description": "Alcanza el nivel general 20. Eres la cima del rendimiento.",
+      "condition_type": "level",
+      "condition_value": 20,
+      "condition_muscle": null,
+      "xp_reward": 800,
+      "rarity": "epic",
+      "badge_icon": "trophy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 14,
+    "fields": {
+      "name": "Millonario de XP",
+      "description": "Acumula 10000 XP en total. Has invertido muchísimo en tu cuerpo.",
+      "condition_type": "total_xp",
+      "condition_value": 10000,
+      "condition_muscle": null,
+      "xp_reward": 1000,
+      "rarity": "epic",
+      "badge_icon": "coin",
+      "is_active": true
+    }
+  },
+  {
+    "model": "achievements.achievement",
+    "pk": 15,
+    "fields": {
+      "name": "Maestro de misiones",
+      "description": "Completa 50 misiones. Nadie acepta más retos que tú.",
+      "condition_type": "mission_count",
+      "condition_value": 50,
+      "condition_muscle": null,
+      "xp_reward": 600,
+      "rarity": "legendary",
+      "badge_icon": "scroll",
+      "is_active": true
+    }
+  }
+]

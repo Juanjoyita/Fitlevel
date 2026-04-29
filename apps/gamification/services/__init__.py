@@ -178,7 +178,10 @@ def complete_workout(workout):
         unlocked_achievements = []
         try:
             from apps.achievements.services import check_achievements
-            unlocked_achievements = check_achievements(user)
+            unlocked_achievements = check_achievements(
+                user=user,
+                workout=workout
+            )
         except (ImportError, Exception):
             pass
 
