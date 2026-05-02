@@ -1,0 +1,302 @@
+[
+  {
+    "model": "missions.mission",
+    "pk": 1,
+    "fields": {
+      "name": "Primera sesión del día",
+      "description": "Completa una sesión de entrenamiento hoy. ¡El primer paso es el más importante!",
+      "mission_type": "daily",
+      "condition_type": "workout_count",
+      "condition_value": 1,
+      "condition_muscle": null,
+      "xp_reward": 50,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 2,
+    "fields": {
+      "name": "Quema calorías",
+      "description": "Gana 100 XP en una sola sesión de entrenamiento.",
+      "mission_type": "daily",
+      "condition_type": "xp_gained",
+      "condition_value": 100,
+      "condition_muscle": null,
+      "xp_reward": 75,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 3,
+    "fields": {
+      "name": "Entrenamiento completo",
+      "description": "Realiza al menos 5 ejercicios en una sola sesión.",
+      "mission_type": "daily",
+      "condition_type": "exercise_count",
+      "condition_value": 5,
+      "condition_muscle": null,
+      "xp_reward": 80,
+      "difficulty": "medium",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 4,
+    "fields": {
+      "name": "Día de pecho",
+      "description": "Entrena el grupo muscular de pecho hoy. ¡A presionar!",
+      "mission_type": "daily",
+      "condition_type": "muscle_count",
+      "condition_value": 1,
+      "condition_muscle": 1,
+      "xp_reward": 60,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 5,
+    "fields": {
+      "name": "Día de piernas",
+      "description": "Entrena cuádriceps hoy. Las piernas son la base de todo.",
+      "mission_type": "daily",
+      "condition_type": "muscle_count",
+      "condition_value": 1,
+      "condition_muscle": 5,
+      "xp_reward": 60,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 6,
+    "fields": {
+      "name": "Día de espalda",
+      "description": "Trabaja tu espalda alta hoy. ¡Construye esa V!",
+      "mission_type": "daily",
+      "condition_type": "muscle_count",
+      "condition_value": 1,
+      "condition_muscle": 6,
+      "xp_reward": 60,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 7,
+    "fields": {
+      "name": "Cuerpo completo",
+      "description": "Entrena al menos 4 grupos musculares distintos en una sesión.",
+      "mission_type": "daily",
+      "condition_type": "muscle_count",
+      "condition_value": 4,
+      "condition_muscle": null,
+      "xp_reward": 120,
+      "difficulty": "hard",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 8,
+    "fields": {
+      "name": "XP Intenso",
+      "description": "Gana 200 XP en una sola sesión. ¡Entrena con intensidad!",
+      "mission_type": "daily",
+      "condition_type": "xp_gained",
+      "condition_value": 200,
+      "condition_muscle": null,
+      "xp_reward": 150,
+      "difficulty": "hard",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 9,
+    "fields": {
+      "name": "Racha en marcha",
+      "description": "Mantén una racha de 2 días consecutivos de entrenamiento.",
+      "mission_type": "daily",
+      "condition_type": "streak_days",
+      "condition_value": 2,
+      "condition_muscle": null,
+      "xp_reward": 80,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 10,
+    "fields": {
+      "name": "Racha de fuego",
+      "description": "Mantén una racha de 3 días consecutivos de entrenamiento.",
+      "mission_type": "daily",
+      "condition_type": "streak_days",
+      "condition_value": 3,
+      "condition_muscle": null,
+      "xp_reward": 120,
+      "difficulty": "medium",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 11,
+    "fields": {
+      "name": "Maratón de ejercicios",
+      "description": "Realiza al menos 8 ejercicios en una sola sesión.",
+      "mission_type": "daily",
+      "condition_type": "exercise_count",
+      "condition_value": 8,
+      "condition_muscle": null,
+      "xp_reward": 130,
+      "difficulty": "hard",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 12,
+    "fields": {
+      "name": "Cardio del día",
+      "description": "Realiza al menos 2 ejercicios cardiovasculares hoy.",
+      "mission_type": "daily",
+      "condition_type": "exercise_count",
+      "condition_value": 2,
+      "condition_muscle": null,
+      "xp_reward": 55,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 13,
+    "fields": {
+      "name": "Semana activa",
+      "description": "Completa 3 sesiones de entrenamiento esta semana.",
+      "mission_type": "weekly",
+      "condition_type": "workout_count",
+      "condition_value": 3,
+      "condition_muscle": null,
+      "xp_reward": 150,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 14,
+    "fields": {
+      "name": "Semana completa",
+      "description": "Completa 5 sesiones de entrenamiento esta semana.",
+      "mission_type": "weekly",
+      "condition_type": "workout_count",
+      "condition_value": 5,
+      "condition_muscle": null,
+      "xp_reward": 250,
+      "difficulty": "medium",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 15,
+    "fields": {
+      "name": "Guerrero semanal",
+      "description": "Completa 6 sesiones de entrenamiento esta semana. ¡Casi todos los días!",
+      "mission_type": "weekly",
+      "condition_type": "workout_count",
+      "condition_value": 6,
+      "condition_muscle": null,
+      "xp_reward": 400,
+      "difficulty": "hard",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 16,
+    "fields": {
+      "name": "Acumulador de XP",
+      "description": "Acumula 300 XP total durante la semana.",
+      "mission_type": "weekly",
+      "condition_type": "xp_gained",
+      "condition_value": 300,
+      "condition_muscle": null,
+      "xp_reward": 200,
+      "difficulty": "easy",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 17,
+    "fields": {
+      "name": "Maestro del XP",
+      "description": "Acumula 600 XP total durante la semana.",
+      "mission_type": "weekly",
+      "condition_type": "xp_gained",
+      "condition_value": 600,
+      "condition_muscle": null,
+      "xp_reward": 350,
+      "difficulty": "medium",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 18,
+    "fields": {
+      "name": "Leyenda de XP",
+      "description": "Acumula 1000 XP total durante la semana. ¡Solo los más dedicados lo logran!",
+      "mission_type": "weekly",
+      "condition_type": "xp_gained",
+      "condition_value": 1000,
+      "condition_muscle": null,
+      "xp_reward": 600,
+      "difficulty": "hard",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 19,
+    "fields": {
+      "name": "Racha semanal",
+      "description": "Mantén una racha de 5 días consecutivos de entrenamiento.",
+      "mission_type": "weekly",
+      "condition_type": "streak_days",
+      "condition_value": 5,
+      "condition_muscle": null,
+      "xp_reward": 350,
+      "difficulty": "medium",
+      "is_active": true
+    }
+  },
+  {
+    "model": "missions.mission",
+    "pk": 20,
+    "fields": {
+      "name": "Guerrero constante",
+      "description": "Mantén una racha de 7 días consecutivos. ¡Una semana sin fallar!",
+      "mission_type": "weekly",
+      "condition_type": "streak_days",
+      "condition_value": 7,
+      "condition_muscle": null,
+      "xp_reward": 500,
+      "difficulty": "hard",
+      "is_active": true
+    }
+  }
+]

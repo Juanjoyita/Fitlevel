@@ -1,0 +1,795 @@
+[
+  {
+    "model": "exercises.exercise",
+    "pk": 1,
+    "fields": {
+      "name": "Press de Banca con Barra",
+      "description": "Ejercicio compuesto para el pecho con barra.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 2,
+    "fields": {
+      "name": "Press de Banca Inclinado con Barra",
+      "description": "Press de banca inclinado para parte superior del pecho.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 3,
+    "fields": {
+      "name": "Press de Banca con Mancuernas",
+      "description": "Press de pecho con mancuernas. Mayor rango de movimiento.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 4,
+    "fields": {
+      "name": "Press de Banca Inclinado con Mancuernas",
+      "description": "Press inclinado con mancuernas para pecho superior.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 5,
+    "fields": {
+      "name": "Aperturas con Mancuernas",
+      "description": "Ejercicio de aislamiento para el pecho con mancuernas.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 6,
+    "fields": {
+      "name": "Peck Deck (Máquina de Pecho)",
+      "description": "Aperturas en máquina para aislamiento del pecho.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 7,
+    "fields": {
+      "name": "Fondos en Paralelas",
+      "description": "Ejercicio de peso corporal para pecho y tríceps.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 8,
+    "fields": {
+      "name": "Press Militar con Barra",
+      "description": "Press de hombros con barra de pie o sentado.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 9,
+    "fields": {
+      "name": "Press de Hombros con Mancuernas",
+      "description": "Press de hombros con mancuernas sentado o de pie.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 10,
+    "fields": {
+      "name": "Press de Hombros en Máquina",
+      "description": "Press de hombros en máquina guiada.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 11,
+    "fields": {
+      "name": "Elevaciones Laterales con Mancuernas",
+      "description": "Aislamiento para deltoides laterales con mancuernas.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 12,
+    "fields": {
+      "name": "Elevaciones Frontales con Mancuernas",
+      "description": "Aislamiento para deltoides frontales con mancuernas.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 13,
+    "fields": {
+      "name": "Pájaros con Mancuernas",
+      "description": "Ejercicio para deltoides posteriores con mancuernas.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 14,
+    "fields": {
+      "name": "Curl de Bíceps con Barra",
+      "description": "Ejercicio básico de aislamiento para bíceps con barra.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 15,
+    "fields": {
+      "name": "Curl de Bíceps con Mancuernas",
+      "description": "Curl alternado con mancuernas para bíceps.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 16,
+    "fields": {
+      "name": "Curl Concentrado con Mancuerna",
+      "description": "Curl unilateral apoyado en el muslo para máximo aislamiento.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 17,
+    "fields": {
+      "name": "Curl Martillo con Mancuernas",
+      "description": "Curl con agarre neutro para bíceps y braquial.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 18,
+    "fields": {
+      "name": "Curl de Bíceps en Máquina",
+      "description": "Curl de bíceps en máquina guiada.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 19,
+    "fields": {
+      "name": "Extensión de Tríceps en Polea",
+      "description": "Ejercicio de aislamiento para tríceps en polea alta.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 20,
+    "fields": {
+      "name": "Press Francés con Barra EZ",
+      "description": "Extensión de tríceps con barra EZ acostado.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 21,
+    "fields": {
+      "name": "Extensión de Tríceps con Mancuerna",
+      "description": "Extensión de tríceps sobre la cabeza con mancuerna.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 22,
+    "fields": {
+      "name": "Press Cerrado en Máquina",
+      "description": "Press de tríceps en máquina con agarre cerrado.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 23,
+    "fields": {
+      "name": "Dominadas",
+      "description": "Ejercicio compuesto de peso corporal para espalda alta.",
+      "difficulty": "advanced",
+      "category": "strength",
+      "base_xp": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 24,
+    "fields": {
+      "name": "Remo con Barra",
+      "description": "Ejercicio compuesto para espalda alta y bíceps.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 25,
+    "fields": {
+      "name": "Remo con Mancuerna",
+      "description": "Remo unilateral con mancuerna para espalda alta.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 26,
+    "fields": {
+      "name": "Remo en Máquina",
+      "description": "Remo horizontal en máquina para espalda alta.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 27,
+    "fields": {
+      "name": "Jalón al Pecho en Polea",
+      "description": "Jalón en polea alta para espalda alta.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 28,
+    "fields": {
+      "name": "Pull Over con Mancuerna",
+      "description": "Ejercicio para espalda alta y pecho con mancuerna.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 29,
+    "fields": {
+      "name": "Peso Muerto con Barra",
+      "description": "Ejercicio compuesto para espalda baja y piernas.",
+      "difficulty": "advanced",
+      "category": "strength",
+      "base_xp": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 30,
+    "fields": {
+      "name": "Peso Muerto con Mancuernas",
+      "description": "Variante del peso muerto con mancuernas.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 31,
+    "fields": {
+      "name": "Hiperextensiones",
+      "description": "Ejercicio de aislamiento para espalda baja.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 32,
+    "fields": {
+      "name": "Sentadilla con Barra",
+      "description": "Ejercicio compuesto fundamental para cuádriceps.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 33,
+    "fields": {
+      "name": "Sentadilla Frontal",
+      "description": "Sentadilla con barra en posición frontal.",
+      "difficulty": "advanced",
+      "category": "strength",
+      "base_xp": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 34,
+    "fields": {
+      "name": "Sentadilla con Mancuernas",
+      "description": "Sentadilla sosteniendo mancuernas a los lados.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 35,
+    "fields": {
+      "name": "Prensa de Piernas",
+      "description": "Ejercicio de cuádriceps en máquina prensa.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 36,
+    "fields": {
+      "name": "Extensión de Cuádriceps en Máquina",
+      "description": "Ejercicio de aislamiento para cuádriceps en máquina.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 37,
+    "fields": {
+      "name": "Hack Squat en Máquina",
+      "description": "Sentadilla en máquina hack squat para cuádriceps.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 38,
+    "fields": {
+      "name": "Curl Femoral en Máquina",
+      "description": "Ejercicio de aislamiento para isquiotibiales en máquina.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 39,
+    "fields": {
+      "name": "Curl Femoral con Mancuerna",
+      "description": "Curl femoral unilateral con mancuerna de pie.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 40,
+    "fields": {
+      "name": "Peso Muerto Rumano con Barra",
+      "description": "Variante del peso muerto enfocada en isquiotibiales.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 41,
+    "fields": {
+      "name": "Peso Muerto Rumano con Mancuernas",
+      "description": "Peso muerto rumano con mancuernas para isquiotibiales.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 42,
+    "fields": {
+      "name": "Hip Thrust con Barra",
+      "description": "Ejercicio fundamental para glúteos con barra.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 43,
+    "fields": {
+      "name": "Hip Thrust con Mancuerna",
+      "description": "Hip thrust con mancuerna sobre las caderas.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 44,
+    "fields": {
+      "name": "Abductor en Máquina",
+      "description": "Ejercicio de aislamiento para glúteos en máquina abductora.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 45,
+    "fields": {
+      "name": "Patada de Glúteo en Polea",
+      "description": "Ejercicio de aislamiento para glúteos en polea baja.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 46,
+    "fields": {
+      "name": "Elevación de Talones de Pie",
+      "description": "Ejercicio de aislamiento para pantorrillas de pie.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 47,
+    "fields": {
+      "name": "Elevación de Talones Sentado",
+      "description": "Ejercicio de aislamiento para pantorrillas sentado.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 48,
+    "fields": {
+      "name": "Encogimientos con Barra",
+      "description": "Ejercicio de aislamiento para trapecios con barra.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 49,
+    "fields": {
+      "name": "Encogimientos con Mancuernas",
+      "description": "Ejercicio de aislamiento para trapecios con mancuernas.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 50,
+    "fields": {
+      "name": "Plancha",
+      "description": "Ejercicio isométrico de core y abdomen.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 51,
+    "fields": {
+      "name": "Crunch Abdominal",
+      "description": "Ejercicio básico de aislamiento para abdomen.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 52,
+    "fields": {
+      "name": "Crunch en Máquina",
+      "description": "Crunch abdominal en máquina guiada.",
+      "difficulty": "beginner",
+      "category": "strength",
+      "base_xp": 10,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 53,
+    "fields": {
+      "name": "Rueda Abdominal",
+      "description": "Ejercicio avanzado de core con rueda abdominal.",
+      "difficulty": "advanced",
+      "category": "strength",
+      "base_xp": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 54,
+    "fields": {
+      "name": "Zancadas con Mancuernas",
+      "description": "Zancadas con mancuernas para cuádriceps y glúteos.",
+      "difficulty": "intermediate",
+      "category": "strength",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 55,
+    "fields": {
+      "name": "Cinta de Correr",
+      "description": "Cardio en cinta a ritmo moderado o intenso.",
+      "difficulty": "beginner",
+      "category": "cardio",
+      "base_xp": 15,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 56,
+    "fields": {
+      "name": "Bicicleta Estática",
+      "description": "Cardio en bicicleta estática a ritmo constante.",
+      "difficulty": "beginner",
+      "category": "cardio",
+      "base_xp": 15,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 57,
+    "fields": {
+      "name": "Elíptica",
+      "description": "Cardio de bajo impacto en máquina elíptica.",
+      "difficulty": "beginner",
+      "category": "cardio",
+      "base_xp": 15,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 58,
+    "fields": {
+      "name": "Remo Ergómetro",
+      "description": "Cardio en máquina de remo. Trabaja todo el cuerpo.",
+      "difficulty": "intermediate",
+      "category": "cardio",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 59,
+    "fields": {
+      "name": "Saltar Cuerda",
+      "description": "Cardio de alta intensidad con cuerda.",
+      "difficulty": "intermediate",
+      "category": "cardio",
+      "base_xp": 20,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 60,
+    "fields": {
+      "name": "HIIT",
+      "description": "Entrenamiento de intervalos de alta intensidad.",
+      "difficulty": "advanced",
+      "category": "cardio",
+      "base_xp": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 61,
+    "fields": {
+      "name": "Escaladora",
+      "description": "Cardio en máquina escaladora. Alta demanda cardiovascular.",
+      "difficulty": "advanced",
+      "category": "cardio",
+      "base_xp": 25,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
